@@ -1,6 +1,6 @@
 {% set name = "psdtags" %}
-{% set version = "2025.12.12" %}
-{% set sha256 = "c510c389d6d6e69b997fe94858b39f94a33beb22d8ce451086812f9f48146c56" %}
+{% set version = "2026.1.8" %}
+{% set sha256 = "bf8d24b8ec9794705168a708a39087f23be6d238e46fcede95ad68f243595b38" %}
 {% set python_min = "3.11" %}
 
 package:
