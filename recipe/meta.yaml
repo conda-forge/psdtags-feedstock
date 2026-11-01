@@ -1,7 +1,7 @@
 {% set name = "psdtags" %}
 {% set version = "2026.11.1" %}
 {% set sha256 = "777b56e9d055b332673bfb0a5b1458b5d3602e10cafab29371754e565f0ce52f" %}
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - numpy
+    - numpy >=2.1.0
     - python >={{ python_min }}
 
 test:
