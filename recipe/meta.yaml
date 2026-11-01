@@ -1,6 +1,6 @@
 {% set name = "psdtags" %}
-{% set version = "2026.1.29" %}
-{% set sha256 = "233117d3604809ad39d6c52b18aa4befefc1524778176b1698ef080c3ddc28fe" %}
+{% set version = "2026.11.1" %}
+{% set sha256 = "777b56e9d055b332673bfb0a5b1458b5d3602e10cafab29371754e565f0ce52f" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
